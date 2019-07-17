@@ -12,7 +12,7 @@ class List extends Component {
            console.log(p)
            return (
              <div key={p.url}>
-              <h1 className="planet-name">{p.name}</h1>
+              <h3 className="planet-name">{p.name}</h3>
               <PlanetInfo planetInfo={p} />
              </div>
            )
